@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: antiquewhite;
+    margin-top: 10px;
+}
+#wrapper{
+    width: 960px;
+    height: 500px;
+    margin: 0 auto;
+}
+#header{
+    background-color: coral;
+    padding: 20px;
+    border-bottom: 5px solid gray;
+}
+#header h2{
+    color: cornsilk;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#header p{
+    color: black;
+}
+#nav{
+    height: 38px;
+    background: white;
+    border-bottom: 5px solid gray;
+}
+#nav ul{
+    list-style-type: none;
+    z-index: 999;
+}
+#nav ul li{
+    float: left;
+    background-color: white;
+    border-right: 1px solid black;
+}
+#nav ul li:first-child{
+
+}
+#nav ul li:last-child{
+    border-right: none;
+}
+#nav ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+}
+#nav ul li a:hover{
+    background-color: olive;
+    color: white;
+}
+#nav ul li{
+    position: relative;
+}
+#nav ul li ul{
+    position: absolute;
+    left: -9999px;
+}
+#nav ul li:hover ul{
+    left: 0px;
+}
+#nav ul li:hover ul li{
+    left: 0px;
+    width: 150px;
+}
+#nav ul li ul li{
+    float: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+}
+#nav ul li ul li:last-child{
+    border-bottom: none;
+}
+#section{
+}
+#section img{
+}
+#section a{
+}
+.slider-wrapper theme-light{
+    width: 960px;
+}
+#content{
+    padding: 10px 0px;
+    background-color: white;
+    border-top: 5px solid gray;
+    overflow: hidden;
+}
+#article{
+    width: 600px;
+    padding: 0px 15px;
+    float: left;
+}
+#article h2{
+
+}
+#article p{
+    text-align: justify;
+}
+#aside{
+    width: 300px;
+    padding: 0px 15px;
+    float: left;
+}
+#aside ul{
+    list-style-type: none;
+}
+#aside ul li{
+    float: none;
+}
+#aside ul li a{
+    text-decoration: none;
+}
+#footer{
+    background-color: coral;
+    padding: 10px;
+    text-align: center;
+}
+#footer p{
+    color: white;
+}

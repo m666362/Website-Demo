@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+
+    <link rel="stylesheet" href="website.css">
+    <title>Website</title>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <div id="header">
+                <h2>Website name</h2>
+                <p>Site goes here</p>
+            </div>
+        </header>
+        <nav>
+            <div id="nav">
+                <ul>
+                    <li><a href="#">Menu list</a></li>
+                    <li><a href="#">Menu list &raquo;</a>
+                        <ul>
+                            <li><a href="#">Inside menu</a></li>
+                            <li><a href="#">Inside menu</a></li>
+                            <li><a href="#">Inside menu</a></li>
+                            <li><a href="#">Inside menu</a></li>
+                            <li><a href="#">Inside menu</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Menu list</a></li>
+                    <li><a href="#">Menu list</a></li>
+                    <li><a href="#">Menu list</a></li>
+                </ul>
+            </div>
+        </nav>
+        <section>
+            <div class="slider-wrapper theme-light">
+                <div id="slider" class="nivoSlider">
+                    <img src="images/toystory.jpg" data-thumb="images/toystory.jpg" alt="" />
+                    <a href="http://dev7studios.com"><img src="images/up.jpg" data-thumb="images/up.jpg" alt="" title="This is an example of a caption" /></a>
+                    <img src="images/walle.jpg" data-thumb="images/walle.jpg" alt="" data-transition="slideInLeft" />
+                    <img src="images/nemo.jpg" data-thumb="images/nemo.jpg" alt="" title="#htmlcaption" />
+                </div>
+            </div>
+        </section>
+        <div id="content">
+            <article>
+                <div id="article">
+                    <h2>Lorem ipsum dolor sit amet, consectetuer</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendreri</p>
+                </div>
+            </article>
+            <aside>
+                <div id="aside">
+                    <h2>Sidebar Heading:</h2>
+                    <ul>
+                        <li><a href="#">list item</a></li>
+                        <li><a href="#">list item</a></li>
+                        <li><a href="#">list item</a></li>
+                        <li><a href="#">list item</a></li>
+                        <li><a href="#">list item</a></li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+        <footer>
+            <div id="footer">
+                <p>© All Right Reserved By- IT-Bari.com</p>
+            </div>
+        </footer>
+
+    </div>
+    <script type="text/javascript" src="jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+</body>
+</html>
